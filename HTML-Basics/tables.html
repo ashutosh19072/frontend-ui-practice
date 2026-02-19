@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table
+        {
+            width: 50%;
+            border-collapse: collapse;
+            text-align: center;
+            
+        }
+        td,th
+        {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even)
+        {
+            background-color: #b9b9b9;
+            
+        }
+         thead,tfoot
+        {
+            background-color: darkgreen;
+            color: #fff;
+        }
+        tbody
+        {
+            background-color:darkseagreen
+        } 
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Category</th>
+        </tr>
+        <tr>
+            <td>Ashutosh Tiwari</td>
+            <td>Bankhedi</td>
+            <td>Gen</td>
+        </tr>
+        <tr>
+            <td>Suresh Mahawar</td>
+            <td>Ratlam</td>
+            <td>SC</td>
+        </tr>
+        <tr>
+            <td>Kratika Barfa</td>
+            <td>Kukshi</td>
+            <td>OBC</td>
+        </tr>
+    </table>
+    <br>
+
+    <table>
+        <tr>
+            <th>Fruit</th>
+            <td>Mango</td>
+            <td>Apple</td>
+        </tr>
+        <tr>
+            <th>Color</th>
+            <td>Yellow</td>
+            <td>Red</td>
+        </tr>
+    </table>
+
+<br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shopping</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>Travel</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Food</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Stay</td>
+                <td>2500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>10000</td>
+            </tr>
+        </tfoot>
+        
+       
+    </table>
+
+</body>
+</html>
